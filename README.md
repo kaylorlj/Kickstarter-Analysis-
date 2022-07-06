@@ -3,14 +3,14 @@
 # Kickstarting With Excel
 # Overview: 
 	
-	In this project, we were to create a pivot table and line graph to showcase the Outcomes based on Launch Date in Delieverable One. The second goal of this Challenge 
+	-In this project, we were to create a pivot table and line graph to showcase the Outcomes based on Launch Date in Delieverable One. The second goal of this Challenge 
 was to create a table as well as a second line graph to show the Goals. In both Delieverables, the general purpose was to exhibit data that was in the workbook into
 both more comprehensive and user-friendly understanding.he purpose of this project in regards to this class is to get comfortable with simple tasks in Microsoft Excel and as an introduction into data analytics. Industry-wide businesses use 
 Microsoft Excel on a daily basis and it is fundamental to understand how to show basic data in a computer language that is most heavily used in the job market. 
 
 ## Analysis and Challenges: 
 	
-	The first step was to find the years data in the workbook, this would be the first challenge I ran into. I was unsure how how to go about this, but I figured out a formula to convert Epoch time in Microsoft Excel workbooks. 
+	-The first step was to find the years data in the workbook, this would be the first challenge I ran into. I was unsure how how to go about this, but I figured out a formula to convert Epoch time in Microsoft Excel workbooks. 
 I did resort to Google to look for this formula. I was able to click on the row and convert each one.The Formula is: =(A1/86400)+DATE(1970,1,1). I found this formula by looking up Epoch time and how to create a formula with it in Excel. 
 Through this I was able to accomplish the first task. The pivot table was much easier though I could not find how the data was supposed to be broken down into months instead of years.
 After correcting the position of the row labels, I was able to get to 4064. Creating the final pivot table was simple; break it down into only the theatre category. 
