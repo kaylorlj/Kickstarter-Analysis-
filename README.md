@@ -14,13 +14,13 @@ Microsoft Excel on a daily basis and it is fundamental to understand how to show
 I did resort to Google to look for this formula. I was able to click on the row and convert each one.The Formula is: =(A1/86400)+DATE(1970,1,1). I found this formula by looking up Epoch time and how to create a formula with it in Excel. 
 Through this I was able to accomplish the first task. The pivot table was much easier though I could not find how the data was supposed to be broken down into months instead of years.
 After correcting the position of the row labels, I was able to get to 4064. Creating the final pivot table was simple; break it down into only the theatre category. 
-I did not run into issues with the creation of final pivot table. Creating the line graph was not as simple as I had assumed, presumably because in my work it converted to years instead of monthes like in the example 
+	I did not run into issues with the creation of final pivot table. Creating the line graph was not as simple as I had assumed, presumably because in my work it converted to years instead of monthes like in the example 
 of Challenge 1 but my line graph did not look the same. It did depict the data though with years instead of monthes. In the second delieverable, we were to create a table, familiarize ourselves with the COUNTIFS() function. 
 This took about an hour of practice before I was able to comprehensively understand how to use it. Even then, I know there are a few spaces where I overlooked mistakes.
-We were to use this function to be able to extract large pieces of data without having to sit for hours scouring for it. 
+	We were to use this function to be able to extract large pieces of data without having to sit for hours scouring for it. 
 Based on the data of the first pivot table, we were to find the overall 'successful','cancelled' and 'failures' Kickstarters and convert this information into a pivot table. 
 Then, we were to decrease the data even more by only looking at Theatre 'successes' and 'failures'. In the grand total, there was 37 cancelled, 493 failed and 839 successful. 
-The Outcomes Based on Goals shown that the smaller Kickstarter's were the most successful, keeping their 'successes' small. I created a table as instructed, finding that 1764 of the 1860 Kickstater's with less than $1,000 raised had a 94% success rate. 
+	The Outcomes Based on Goals shown that the smaller Kickstarter's were the most successful, keeping their 'successes' small. I created a table as instructed, finding that 1764 of the 1860 Kickstater's with less than $1,000 raised had a 94% success rate. 
 As for failures, the vice versa is true. The more money to be raised, the less successful the Kickstarter's were. For $45,000 to $49,999, 11 failed and 6 succeeded making that a 62% fail rate. 
 I faced the biggest challenge on Delieverable 1 when moving the data from the pivot table to create a line graph. I could not get the data to show similarly to the line
 graph that is shown to give us an idea of what it should look like. The second difficultly came with Delieverable 2, with the COUNTIFs().
