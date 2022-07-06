@@ -2,14 +2,16 @@
 
 # Kickstarting With Excel
 # Overview: 
+	
 	In this project, we were to create a pivot table and line graph to showcase the Outcomes based on Launch Date in Delieverable One. The second goal of this Challenge 
 was to create a table as well as a second line graph to show the Goals. In both Delieverables, the general purpose was to exhibit data that was in the workbook into
 both more comprehensive and user-friendly understanding.he purpose of this project in regards to this class is to get comfortable with simple tasks in Microsoft Excel and as an introduction into data analytics. Industry-wide businesses use 
 Microsoft Excel on a daily basis and it is fundamental to understand how to show basic data in a computer language that is most heavily used in the job market. 
 
 ## Analysis and Challenges: 
+	
 	The first step was to find the years data in the workbook, this would be the first challenge I ran into. I was unsure how how to go about this, but I figured out a formula to convert Epoch time in Microsoft Excel workbooks. 
-I did resort to Google to look for this formula. I was able to click on the row and convert each one.The Formula is: +(A1/86400)+DATE(1970,1,1). I found this formula by looking up Epoch time and how to create a formula with it in Excel. 
+I did resort to Google to look for this formula. I was able to click on the row and convert each one.The Formula is: =(A1/86400)+DATE(1970,1,1). I found this formula by looking up Epoch time and how to create a formula with it in Excel. 
 Through this I was able to accomplish the first task. The pivot table was much easier though I could not find how the data was supposed to be broken down into months instead of years.
 After correcting the position of the row labels, I was able to get to 4064. Creating the final pivot table was simple; break it down into only the theatre category. 
 I did not run into issues with the creation of final pivot table. Creating the line graph was not as simple as I had assumed, presumably because in my work it converted to years instead of monthes like in the example 
@@ -25,6 +27,7 @@ graph that is shown to give us an idea of what it should look like. The second d
 I was unable to get an accurate reflection of the table data onto the line graphs. I had this same issue with creating the line graph for Outcomes Based on Launch Date. 
 
 ### Results
+
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 	The year 2015 had the most successes in Kickstarters hitting their goals than any year between 2009 and 2017. Overall, very seldom were Kickstarter campaigns cancelled even if they did not meet their financial goal. 
 - What can you conclude about the Outcomes based on Goals?
